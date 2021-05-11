@@ -4,7 +4,7 @@ const requests = require("requests");
 const express = require("express");
 const app = express();
 
-const staticPath = path.join(__dirname, "/public");
+const staticPath = path.join(__dirname, "../public");
 
 //Setting the View Engine to render dynamic content
 app.set("view engine", "hbs");
