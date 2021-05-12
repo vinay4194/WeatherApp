@@ -69,7 +69,7 @@ removeCity.forEach((city) => {
 
 //Get the data for the Selected City
 function getCityData(city) {
-	fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=02148ae38e8005a7ab9ed6cd5817beac`)
+	fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=02148ae38e8005a7ab9ed6cd5817beac`)
 		.then((response) => response.json())
 		.then((data) => {
 			//show data if correct city name is entered
